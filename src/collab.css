@@ -1,0 +1,39 @@
+.collaborations {
+  text-align: center;
+  height: 100%;
+  width: 91%;
+  margin-left: 3rem;
+  padding: 50px 20px;
+  background-color: #b0d8d8;
+}
+
+.collaborations h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1470af;
+}
+
+.collaboration-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collaboration-item {
+  max-width: 300px;
+  text-align: left;
+}
+
+.collaboration-item img {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 10px;
+  padding-left: 3rem;
+}
+
+.collaboration-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
